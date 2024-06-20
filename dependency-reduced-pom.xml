@@ -140,12 +140,6 @@
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>org.assertj</groupId>
-      <artifactId>assertj-core</artifactId>
-      <version>3.26.0</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
   <reporting>
     <plugins>
