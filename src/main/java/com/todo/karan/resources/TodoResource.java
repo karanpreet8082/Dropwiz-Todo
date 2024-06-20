@@ -2,14 +2,12 @@ package com.todo.karan.resources;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.todo.karan.core.TodoTask;
-import com.todo.karan.db.TodoTableDAO;
+import com.todo.karan.dao.TodoTableDAO;
 import io.dropwizard.hibernate.UnitOfWork;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-
-import java.util.Date;
 
 @Path("/todo")
 @Produces(MediaType.APPLICATION_JSON)

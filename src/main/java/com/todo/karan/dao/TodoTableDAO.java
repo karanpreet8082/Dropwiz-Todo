@@ -1,4 +1,4 @@
-package com.todo.karan.db;
+package com.todo.karan.dao;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
