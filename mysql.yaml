@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: 'mydb'
+      MYSQL_ROOT_PASSWORD: 'secret'
+    volumes:
+#      - '.:/app:rw'
+      - 'my-db-volume:/var/lib/mysql'
+
+#  volumes:
+#    my-db-volume:
