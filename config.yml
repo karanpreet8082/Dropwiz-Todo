@@ -8,6 +8,8 @@ logging:
 database:
   driverClass: com.mysql.cj.jdbc.Driver
   url: jdbc:mysql://localhost:3306/mydb
+#  url: jdbc:mysql://host.docker.internal:3306/mydb
+#  url: jdbc:mysql://mysql:3306/mydb
   user: root
   password: secret
   maxWaitForConnection: 1s
